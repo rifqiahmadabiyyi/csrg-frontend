@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Masuk</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/individual-css/yoga.css">
 </head>
 <body>
-    
+    <div class="row align-items-center text-center m-0">
+        <div class="col-4 sidebar bg-img text-white d-flex flex-column justify-content-center align-items-center gap-4 px-5">
+                <h1>Halo, Kawan!</h1>
+                <h4>Hubungi admin jika belum memiliki akun.</h4>
+                <a href="../index.html" class="btn bg-white btn-sm">KEMBALI</a>
+        </div>
+        <div class="col d-grid gap-5">
+            <div>
+                <img src="../img/logo-black.png" width="250px">
+            </div>
+            <form action="" method="post">
+                <div class="col-9 mx-auto mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text bg-icon justify-content-center"><img src="../img/user.png" width="60%"></span>
+                        <input type="text" class="form-control form-control-lg text-gray bg-form" id="username" name="username" placeholder="Surel atau Nama Pengguna" required>
+                    </div>
+                </div>
+                <div class="col-9 mx-auto mb-md-5">
+                    <div class="input-group">
+                        <span class="input-group-text bg-icon justify-content-center"><img src="../img/pass.png" width="60%"></span>
+                        <input type="password" class="form-control form-control-lg text-gray bg-form" id="password" name="password" placeholder="Kata Sandi" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-2 bg-dark text-white" value="MASUK">
+                </div>
+            </form>		
+        </div>
+    </div>
 </body>
 </html>
