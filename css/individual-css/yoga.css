@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+.container{
+  margin: ;
+}
+.jumbotron {
+  background-image: url(../../img/homepage.png);
+}
+.bg-img{
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.sidebar{   
+  background-image: url(../../img/sidebar.png);
+}
+h1{
+  font-size: 56px;
+}
+.text-gray{
+  color: #727272;
+}
+.form-control{
+  line-height: 36px;
+}
+.form-control:focus{
+  background-color: #E5E5E5;
+}
+.bg-form{
+  background-color: #E5E5E5;
+}
+.bg-icon{
+  background-color: #CECECE;
+}
+.btn{
+  padding: 10px 40px;
+}
+.btn-2{
+  padding: 10px 200px;
+}
